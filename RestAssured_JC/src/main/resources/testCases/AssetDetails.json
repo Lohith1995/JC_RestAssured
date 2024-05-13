@@ -1,0 +1,16 @@
+{
+  "AssetDetails-API":
+  {
+  "Scenario": "AssetDetails - When passing all valid params",
+    "baseURL": "https://stage-content-jiovoot.voot.com",
+    "endpoint": "/psapi/voot/v1/voot-web/content/query/asset-details",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "queryParams": {
+      "sort": "season",
+      "ids": "3744709",
+      "responseType": "common"
+    }
+  }
+}
